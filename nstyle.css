@@ -1,0 +1,1314 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Anek+Bangla&family=Atma:wght@300&family=Baloo+Da+2&family=Bebas+Neue&family=Bubblegum+Sans&family=Edu+NSW+ACT+Foundation&family=Galada&family=Gloria+Hallelujah&family=Gochi+Hand&family=Hind+Siliguri:wght@300&family=Just+Another+Hand&family=Lobster&family=Mina&family=Mochiy+Pop+P+One&family=Noto+Sans+Bengali:wght@500&family=Nunito+Sans:wght@600&family=Oleo+Script&family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300&family=Pacifico&family=Patrick+Hand&family=Poppins:ital,wght@1,100&family=Red+Hat+Mono:wght@300&family=Roboto:wght@300&family=Source+Sans+Pro&family=Tiro+Bangla&display=swap'); */
+
+/* @import url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/bangla/stylesheet.css');
+@import url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/solaimanlipi/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://cdn.rawgit.com/mirazmac/bengali-webfont-cdn/master/solaimanlipi/style.css'); */
+@import url('http://fonts.cdnfonts.com/css/arial-mt');
+/* @font-face {
+    font-family: myFirstFont;
+    src: url(/fonts/SutonnyMJ\ Regular.ttf);
+  } */
+
+@font-face {
+    font-family: mysFont;
+    src: url(/fonts/SutonnyMJ\ Bold.ttf);
+}
+
+@font-face {
+    font-family: nikos;
+    src: url(/fonts/Nikosh.ttf);
+}
+
+@font-face {
+    font-family: myFirstfont;
+    src: url(../fonts/Bangla.ttf);
+}
+
+
+#printsss {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.dis {
+    width: 100%;
+    min-height: 40vh;
+
+}
+
+.tada {
+    animation: tada 6s infinite;
+}
+
+@keyframes tada {
+    0% {
+        transform: scale(1);
+    }
+
+    10%,
+    20% {
+        transform: scale(0.9) rotate(-3deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: scale(1.1) rotate(3deg);
+    }
+
+    40%,
+    60%,
+    80% {
+        transform: scale(1.1) rotate(-3deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(0);
+    }
+}
+
+
+.rateinfo {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    position: fixed;
+
+    top: 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    left: 20px;
+    color: #010118;
+    font-weight: 900;
+}
+
+.rateinfo button {
+    border: 1px solid blue;
+    background: #e0fbe7;
+}
+
+.agentnumber {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    background: #0d0d28;
+    padding: 30px;
+    color: white;
+}
+
+#recharge {
+    position: fixed;
+    left: 165px;
+    top: 20px;
+    border: none;
+    padding: 11px 21px;
+    color: white;
+    font-weight: 800;
+    background: #0d0d28;
+    border-radius: 33px;
+    font-size: 1.4rem;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.imgtem {
+    width: 1078px;
+    height: 1525px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.mainbox {
+    /* width: 800px;
+    height: 244px; */
+    margin: auto;
+
+
+}
+
+.bname,
+.ename,
+.fname,
+.mname,
+.issue {
+    position: absolute;
+    color: black;
+}
+
+.ref-no {
+    position: absolute;
+    top: 236.5px;
+    left: 253px;
+    font-size: 0.83rem;
+}
+
+.ref-date {
+    position: absolute;
+    top: 233.5px;
+    left: 627px;
+    font-size: 0.83rem;
+}
+
+.type-app {
+    position: absolute;
+    top: 263.5px;
+    left: 256px;
+    font-size: 0.83rem;
+}
+
+.app-type {
+    position: absolute;
+    top: 261.5px;
+    left: 627px;
+    font-size: 0.83rem;
+}
+
+.dctb {
+    position: absolute;
+    top: 288.5px;
+    left: 256px;
+    font-size: 0.83rem;
+}
+
+.dctb-date {
+    position: absolute;
+    top: 286.5px;
+    left: 627px;
+    font-size: 0.83rem;
+}
+
+.type-lc {
+    position: absolute;
+    top: 314.5px;
+    left: 256px;
+    font-size: 0.83rem;
+}
+
+.issu-date {
+    position: absolute;
+    top: 312.5px;
+    left: 627px;
+    font-size: 0.83rem;
+}
+
+.addi-op {
+    position: absolute;
+    top: 340.5px;
+    left: 256px;
+    font-size: 0.83rem;
+}
+
+.vichele {
+    position: absolute;
+    top: 367.5px;
+    left: 256px;
+    font-size: 0.83rem;
+}
+
+.name {
+    position: absolute;
+    top: 393.5px;
+    left: 256px;
+    font-size: 0.83rem;
+}
+
+.fname {
+    position: absolute;
+    top: 420.5px;
+    left: 256px;
+    font-size: 0.83rem;
+}
+
+.mname {
+    position: absolute;
+    top: 447.5px;
+    left: 256px;
+    font-size: 0.83rem;
+}
+
+.spname {
+    position: absolute;
+    top: 472.5px;
+    left: 256px;
+    font-size: 0.83rem;
+}
+
+.dob {
+    position: absolute;
+    top: 499.5px;
+    left: 256px;
+    font-size: 0.83rem;
+}
+
+.blood {
+    position: absolute;
+    top: 497.5px;
+    left: 629px;
+    font-size: 0.83rem;
+}
+
+.reg-date {
+    position: absolute;
+    top: 524.5px;
+    left: 629px;
+    font-size: 0.83rem;
+}
+
+.drrs {
+    position: absolute;
+    top: 525.5px;
+    left: 257px;
+    font-size: 0.83rem;
+}
+
+.perm-address {
+    position: absolute;
+    top: 577.5px;
+    left: 257px;
+    font-size: 0.83rem;
+}
+
+.issued {
+    position: absolute;
+    top: 552.5px;
+    left: 257px;
+    font-size: 0.83rem;
+}
+
+/* common css */
+
+.g {
+    font-size: 12.4932pt;
+    position: absolute;
+    font-weight: 400;
+}
+
+.l {
+    right: 792px;
+}
+
+.r {
+    right: 310px;
+}
+
+.g1 {
+    position: absolute;
+    top: 125.5px;
+    left: 332px;
+    font-family: 'f0-0';
+    font-weight: 800;
+    font-size: 13.4932pt;
+}
+
+.g2 {
+    position: absolute;
+    top: 147.5px;
+    left: 393px;
+    font-family: 'f0-0';
+    font-weight: 800;
+    font-size: 13.4932pt;
+}
+
+.g3 {
+    position: absolute;
+    top: 479.5px;
+    left: 395px;
+    font-family: 'arial';
+    font-weight: 600;
+    font-size: 13.4932pt;
+}
+
+.g4 {
+    position: absolute;
+    top: 502.5px;
+    left: 390px;
+    font-family: 'kalpurush';
+    font-weight: 400;
+    font-size: 14.4932pt;
+}
+
+.g5 {
+    position: absolute;
+    top: 543.5px;
+    left: 84px;
+    font-family: 'arial';
+    font-weight: 600;
+    font-size: 14.4932pt;
+}
+
+.g5-2 {
+    position: absolute;
+    top: 546.5px;
+    left: 263px;
+    font-family: 'kalpurush';
+    font-weight: 600;
+    font-size: 13.4932pt;
+}
+
+.g6 {
+    position: absolute;
+    top: 543.5px;
+    left: 536px;
+    font-family: 'arial';
+    font-weight: 600;
+    font-size: 14.4932pt;
+}
+
+.g6-2 {
+    position: absolute;
+    top: 546.5px;
+    left: 718px;
+    font-family: 'kalpurush';
+    font-weight: 600;
+    font-size: 13.4932pt;
+}
+
+.g7 {
+    top: 581.5px;
+    font-family: 'arial';
+    font-size: 14.4932pt;
+}
+
+.g7v {
+    top: 592.5px;
+    font-family: 'arial';
+    font-size: 13.4932pt;
+    left: 308px;
+}
+
+.g8v {
+    top: 649.5px;
+    font-family: 'arial';
+    font-size: 13.4932pt;
+    left: 308px;
+}
+
+.g9v {
+    top: 705.5px;
+    font-family: 'arial';
+    font-size: 13.4932pt;
+    left: 308px;
+}
+
+.g10v {
+    top: 762.5px;
+    font-family: 'arial';
+    font-size: 13.4932pt;
+    left: 308px;
+}
+
+.g11v {
+    top: 810.5px;
+    font-family: 'arial';
+    font-size: 13.4932pt;
+    left: 308px;
+    max-width: 200px;
+    text-align:left;
+}
+
+.g12v {
+    top: 879.5px;
+    font-family: 'arial';
+    font-size: 13.4932pt;
+    left: 308px;
+}
+
+.g13v {
+    top: 934.5px;
+    font-family: 'arial';
+    font-size: 13.4932pt;
+    left: 308px;
+}
+
+.g14v {
+    top: 592.5px;
+    font-family: 'arial';
+    font-size: 13.4932pt;
+    left: 791px;
+}
+
+.g15v {
+    top: 651.5px;
+    font-family: 'arial';
+    font-size: 13.4932pt;
+    left: 790px;
+}
+
+.g16v {
+    top: 706.5px;
+    font-family: 'arial';
+    font-size: 13.4932pt;
+    left: 790px;
+}
+
+.g17v {
+    top: 763.5px;
+    font-family: 'arial';
+    font-size: 13.4932pt;
+    left: 790px;
+}
+
+.g18v {
+    top: 842.5px;
+    font-family: 'arial';
+    font-size: 13.4932pt;
+    left: 790px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.g19v {
+    top: 929.5px;
+    font-family: 'arial';
+    font-size: 13.4932pt;
+    left: 790px;
+    line-height: 20px;
+}
+
+.g24v {
+    top: 929.5px;
+    font-family: 'arial';
+    font-size: 13.4932pt;
+    left: 790px;
+    line-height: 20px;
+}
+
+
+
+.g7-2 {
+    top: 604.5px;
+    font-family: 'kalpurush';
+}
+
+.g8 {
+    top: 635.5px;
+    font-family: 'arial';
+
+}
+
+.g8-2 {
+    top: 661.5px;
+    font-family: 'kalpurush';
+}
+
+.g9 {
+    top: 693.5px;
+    font-family: 'arial';
+}
+
+.g9-2 {
+    top: 718.5px;
+    font-family: 'kalpurush';
+}
+
+.g10 {
+    top: 750.5px;
+    font-family: 'arial';
+}
+
+.g10-2 {
+    top: 775.5px;
+    font-family: 'kalpurush';
+}
+
+.g11 {
+    top: 806.5px;
+    font-family: 'arial';
+}
+
+.g11-2 {
+    top: 828.5px;
+    font-family: 'kalpurush';
+}
+
+.g12 {
+    top: 869.5px;
+    font-family: 'arial';
+}
+
+.g12-2 {
+    top: 893.5px;
+    font-family: 'kalpurush';
+}
+
+.g13 {
+    top: 922.5px;
+    font-family: 'arial';
+}
+
+.g13-2 {
+    top: 947.5px;
+    font-family: 'kalpurush';
+}
+
+.g14 {
+    top: 581.5px;
+    font-family: 'arial';
+}
+
+.g14-2 {
+    top: 603.5px;
+    font-family: 'kalpurush';
+}
+
+.g15 {
+    top: 634.5px;
+    font-family: 'arial';
+}
+
+.g15-2 {
+    top: 659.5px;
+    font-family: 'kalpurush';
+}
+
+.g16 {
+    top: 692.5px;
+    font-family: 'arial';
+}
+
+.g16-2 {
+    top: 718.5px;
+    font-family: 'kalpurush';
+}
+
+.g17 {
+    top: 753.5px;
+    font-family: 'arial';
+}
+
+.g17-2 {
+    top: 775.5px;
+    font-family: 'kalpurush';
+}
+
+.g18 {
+    top: 839.5px;
+    font-family: 'arial';
+}
+
+.g18-2 {
+    top: 859.5px;
+    font-family: 'kalpurush';
+}
+
+.g19 {
+    top: 927.5px;
+    font-family: 'arial';
+}
+
+.g19-2 {
+    top: 950.5px;
+    font-family: 'kalpurush';
+}
+
+.g20 {
+    top: 991.5px;
+    font-family: 'arial';
+    left: 435px;
+    font-weight: 600;
+    font-size: 11.5pt;
+}
+
+.g20-2 {
+    top: 992.5px;
+    font-family: 'kalpurush';
+    left: 531px;
+    font-weight: 600;
+    font-size: 11pt;
+}
+
+.g21 {
+    position: absolute;
+    top: 1020.5px;
+    font-family: 'arial';
+    left: 404px;
+    font-weight: 600;
+    font-size: 9.5pt;
+}
+
+.g22 {
+    position: absolute;
+    top: 1021.5px;
+    font-family: 'arial';
+    left: 453px;
+    font-weight: 600;
+    font-size: 9.5pt;
+}
+
+.g22-2 {
+    position: absolute;
+    top: 1022.5px;
+    font-family: 'kalpurush';
+    left: 540px;
+    font-weight: 600;
+    font-size: 9.5pt;
+}
+
+.g23 {
+    position: absolute;
+    top: 1021.5px;
+    font-family: 'arial';
+    left: 608px;
+    font-weight: 600;
+    font-size: 9.5pt;
+}
+
+.g23-2 {
+    position: absolute;
+    top: 1022.5px;
+    font-family: 'kalpurush';
+    left: 638px;
+    font-weight: 600;
+    font-size: 9.5pt;
+}
+
+.g24 {
+    position: absolute;
+    top: 1045.8px;
+    font-family: 'arial';
+    left: 401px;
+    font-weight: 400;
+    font-size: 9.5pt;
+}
+
+.g24-2 {
+    position: absolute;
+    top: 1045.8px;
+    font-family: 'arial';
+    left: 455px;
+    font-weight: 400;
+    font-size: 9.5pt;
+}
+
+.g24-3 {
+    position: absolute;
+    top: 1045.8px;
+    font-family: 'arial';
+    left: 610px;
+    font-weight: 400;
+    font-size: 9.5pt;
+}
+
+.g25 {
+    font-size: 14.4932pt;
+    position: absolute;
+    top: 1116.8px;
+    font-family: 'arial';
+    left: 177px;
+    font-weight: 400;
+}
+
+.g26 {
+    font-size: 14.4932pt;
+    position: absolute;
+    top: 1139.8px;
+    font-family: 'kalpurush';
+    left: 135px;
+    font-weight: 400;
+}
+
+.g26-2 {
+    font-size: 14.4932pt;
+    position: absolute;
+    top: 1136.8px;
+    font-family: 'arial';
+    left: 393px;
+    font-weight: 400;
+}
+
+.g26-3 {
+    font-size: 14.4932pt;
+    position: absolute;
+    top: 1139.8px;
+    font-family: 'kalpurush';
+    left: 639px;
+    font-weight: 400;
+}
+
+.g27 {
+    font-size: 14.4932pt;
+    position: absolute;
+    top: 1174.8px;
+    font-family: 'arial';
+    left: 177px;
+    font-weight: 400;
+}
+
+.g28 {
+    font-size: 14.4932pt;
+    position: absolute;
+    top: 1197.8px;
+    font-family: 'kalpurush';
+    left: 177px;
+    font-weight: 400;
+}
+
+.g28-2 {
+    font-size: 14.4932pt;
+    position: absolute;
+    top: 1195.8px;
+    font-family: 'arial';
+    left: 252px;
+    font-weight: 400;
+}
+
+.g28-3 {
+    font-size: 14.4932pt;
+    position: absolute;
+    top: 1197.8px;
+    font-family: 'kalpurush';
+    left: 408px;
+    font-weight: 400;
+}
+
+.g28-4 {
+    font-size: 14.4932pt;
+    position: absolute;
+    top: 1196.8px;
+    font-family: 'arial';
+    left: 752px;
+    font-weight: 400;
+}
+
+/* back side */
+.b {
+    position: absolute;
+    font-family: 'arial';
+    font-weight: 400;
+    font-size: 12pt;
+
+}
+
+.b1 {
+    top: 282px;
+    left: 376px;
+}
+
+.b2 {
+    top: 425px;
+    left: 219px;
+    min-width: 310px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.b3-q {
+    right: 708px;
+    background-color: #008001;
+    max-height: 19px;
+    padding: 0;
+    line-height: 1;
+    top: 458px;
+    color: white;
+}
+
+.b3-q2 {
+    right: 708px;
+    background-color: #008001;
+    max-height: 19px;
+    padding: 0;
+    line-height: 1;
+    color: white;
+    top: 480px;
+    min-width: 139px;
+    text-align: right;
+}
+
+.b3-q3 {
+    right: 708px;
+    background-color: #008001;
+    max-height: 19px;
+    padding: 0;
+    line-height: 1;
+    color: white;
+    top: 502px;
+    min-width: 139px;
+    text-align: right;
+}
+.b3-q4 {
+    right: 708px;
+    background-color: #008001;
+    max-height: 19px;
+    padding: 0;
+    line-height: 1;
+    color: white;
+    top: 533px;
+    min-width: 139px;
+    text-align: right;
+}
+
+
+
+.b3 {
+    top: 453px;
+    left: 381px;
+    color: white;
+}
+
+.b4 {
+    top: 476px;
+    left: 381px;
+    color: white;
+}
+
+.b5 {
+    top: 498px;
+    left: 381px;
+    color: white;
+}
+
+.b6 {
+    top: 522px;
+    max-width: 147px;
+    line-height: 20px;
+    left: 381px;
+    color: white;
+}
+
+.b7 {
+    top: 563px;
+    left: 381px;
+    color: white;
+}
+
+
+
+
+
+.signeture {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    height: 252px;
+    top: 204px;
+    left: 407px;
+}
+
+.qr2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 115px;
+    top: 308px;
+    left: 315px;
+}
+
+.signeture img,
+.qr2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.template {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ___________________ */
+
+.eachtitle {
+    margin: 20px auto;
+
+}
+
+label {
+    margin: 5px 0;
+}
+
+.inputformdata {
+    gap: 13px;
+}
+
+.form-group {
+    gap: 20px;
+}
+
+.form-group span {
+    width: 50%;
+}
+
+@media only screen and (max-width:425px) {
+    .form-group span {
+        width: 100%;
+
+    }
+
+    .form-group {
+        flex-direction: column !important;
+    }
+}
+
+label {
+    color: rgb(4, 4, 87);
+    font-weight: 700;
+}
+
+.form-group input,
+.form-group select {
+    background-color: #a7d4ff6e;
+}
+
+.form-control {
+    background-color: #a7d4ff6e !important;
+}
+
+/* --------------- */
+
+.loginform {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginform input {
+    border: none;
+    padding: 4px;
+
+}
+
+.usermenu h1 {
+    color: #01013c;
+    font-weight: 900;
+}
+
+.usermenu p {
+    color: red;
+    background: #021828;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.usermenu {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.usermenu button {
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+    outline: none;
+
+}
+
+/* #form {
+    display: none;
+} */
+
+.usermenu span button:hover {
+    background-color: rgb(4, 4, 71);
+}
+
+.usermenu span button:focus {
+    background-color: rgb(55, 2, 80);
+}
+
+.usermenu span button a {
+    color: white;
+    text-decoration: none;
+}
+
+.users {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    outline: none !important;
+    border: none !important;
+}
+
+input[type=file]:focus,
+input[type=checkbox]:focus,
+input[type=radio]:focus {
+    outline: none !important;
+    outline: none !important;
+    outline-offset: none !important;
+}
+
+.form-group b,
+.form-group span b {
+    color: red;
+    margin-top: 3px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+button:focus,
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    /* font-family: 'Nunito', sans-serif; */
+    /* font-weight: 600 !important; */
+    height: 100%;
+    margin: auto !important;
+    max-width: 1078px;
+    background: lightgray !important;
+}
+
+/*----------multiple-file-upload-----------*/
+.file-upload-contain {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.file-upload-contain .file-input,
+.file-upload-contain .file-preview {
+    position: initial;
+}
+
+.file-preview {
+    border: none !important;
+}
+
+.file-upload-contain .file-drop-zone {
+    border: 2px dashed #1e80e8;
+    transition: 0.3s;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    background-color: #f1f8fe;
+    min-height: auto;
+}
+
+.file-upload-contain .file-drop-zone.clickable:hover,
+.file-upload-contain .file-drop-zone.clickable:focus,
+.file-upload-contain .file-highlighted {
+    border: 2px dashed #1e80e8 !important;
+    background-color: #dfedfc;
+}
+
+.upload-area {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    margin-top: -14px;
+}
+
+.upload-area i {
+    color: #1e80e8;
+    font-size: 30px;
+}
+
+.upload-area p {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2580e8;
+}
+
+.upload-area p b {
+    color: #1e80e8;
+}
+
+.upload-area button {
+    padding: 4px 6px;
+    min-width: 114px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #1e80e8;
+    border: 2px solid #1e80e8;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.upload-area button:hover {
+    background-color: #1e80e8;
+    box-shadow: 0px 4px 8px rgb(37 128 232 / 48%);
+}
+
+.file-preview {
+    padding: 0;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.file-preview .fileinput-remove {
+    display: none;
+}
+
+.file-drop-zone-title {
+    padding: 20px 10px;
+}
+
+.file-drop-zone {
+    height: 122px;
+    width: 300px;
+}
+
+.file-drop-zone .file-preview-thumbnails {
+    cursor: pointer;
+}
+
+.file-preview-frame {
+    cursor: default;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #2580e8;
+    box-shadow: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 15px;
+    margin: 8px 0px;
+}
+
+.file-preview-frame:not(.file-preview-error):hover {
+    border: none;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+}
+
+.file-preview-frame .kv-file-content {
+    min-width: 45px;
+    min-height: 45px;
+    width: 45px;
+    height: 45px;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #fff;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.file-preview-image {
+    border-radius: 4px;
+}
+
+.file-preview-frame .file-footer-caption {
+    padding-top: 0;
+}
+
+.file-preview-frame .file-footer-caption {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.file-detail {
+    font-size: 14px;
+    height: auto;
+    width: 100%;
+    line-height: initial;
+}
+
+.file-detail .file-caption-name {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.file-detail .file-size {
+    color: #f1f8fe;
+    font-size: 12px;
+}
+
+.kv-zoom-cache {
+    display: none;
+}
+
+.file-preview-frame .file-thumbnail-footer {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.file-preview-frame .file-drag-handle,
+.file-preview-frame .file-upload-indicator {
+    float: none;
+}
+
+.file-preview-frame .file-footer-buttons {
+    float: none;
+    display: flex;
+    align-items: center;
+}
+
+.file-preview-status.text-center {
+    display: none;
+}
+
+.kv-file-remove.file-remove {
+    border: none;
+    background-color: #ef2f2f;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin: 0px 4px;
+}
+
+.file-drag-handle.file-drag {
+    border: none;
+    background-color: #fff;
+    color: #2580e8;
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin: 0px 4px;
+    display: none;
+}
+
+.kv-file-upload.file-upload {
+    border: none;
+    background-color: #48bd22;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin: 0px 4px;
+}
+
+.file-thumb-loading {
+    background: none !important;
+}
+
+.file-preview-frame.sortable-chosen {
+    background-color: #64a5ef;
+    border-color: #64a5ef;
+    box-shadow: none !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#loadMe {
+    visibility: hidden;
+}
